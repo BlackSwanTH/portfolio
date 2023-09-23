@@ -1,10 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React, { Fragment } from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
+// import AnimatedRoutes from "./components/AnimatedRoutes";
+import App from "./App";
+import About from "./pages/About";
+import Home from "./pages/Home";
+import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
+import "./index.css";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
